@@ -1,4 +1,4 @@
-class Admin::NotificationsController < ApplicationController
+class Admin::NotificationsController < Admin::AdminController
   def show
   end
 
