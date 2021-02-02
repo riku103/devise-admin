@@ -1,2 +1,4 @@
-<h1>Admin::Notifications#show</h1>
-<p>Find me in app/views/admin/notifications/show.html.erb</p>
+<p>タイトル: <%= @notification.title %></p>
+<p><%= simple_format(h @notification.content) %></p>
+<hr>
+<p><%= link_to "お知らせ新規投稿", new_admin_notification_path %></p>

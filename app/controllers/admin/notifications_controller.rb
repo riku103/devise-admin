@@ -1,5 +1,6 @@
 class Admin::NotificationsController < Admin::AdminController
   def show
+    @notification = Notification.find(params[:id])
   end
 
   def new
