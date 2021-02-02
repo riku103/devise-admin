@@ -11,6 +11,8 @@
   </head>
 
   <body>
+    <%= link_to "ログアウト", destroy_admin_user_session_path, method: :delete, data: { confirm: "ログアウトしますか？" } %>
+    <hr>
     <%= yield %>
   </body>
 </html>
