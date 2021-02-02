@@ -1,2 +1,14 @@
-<h1>Admin::Notifications#new</h1>
-<p>Find me in app/views/admin/notifications/new.html.erb</p>
+<h1>管理者画面 お知らせ新規投稿</h1>
+<%= form_with model: @notification, url: admin_notifications_path do |form| %>
+  <p>
+    <%= form.label :title %>
+    <%= form.text_field :title %>
+  </p>
+  <p>
+    <%= form.label :content %>
+    <%= form.text_area :content %>
+  </p>
+  <p>
+    <%= form.submit "送信" %>
+  </p>
+<% end %>
