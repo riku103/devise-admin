@@ -23,6 +23,6 @@ Things you may want to cover:
 
 * ...
 
-svgファイルをリンクして埋め込みます
+## ER図
 
 ![](img/sample.drawio.svg)
