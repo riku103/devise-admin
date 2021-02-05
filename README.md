@@ -23,6 +23,9 @@ Things you may want to cover:
 
 * ...
 
-## ER図
+<!-- ## ER図
 
-![](img/sample.drawio.svg)
+![](img/sample.drawio.svg) -->
+
+## imgタグに変更
+<img width="150" src="img/sample.drawio.svg">
